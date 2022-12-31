@@ -22,17 +22,15 @@ public class C03_FileUploadTesti extends TestBase {
 
     // 3.Yuklemek istediginiz dosyayi secelim.
 
-    /*
-    Bu gorevi yapabilmek icin choose file butonuna basildiginda acilan
-    bilgisayarimizdaki file dosyalarini click yapabilmemiz gerekir
-    ancak Selenium bilgisayarimizdaki dosyalari click yapamaz
-
-    Bunun yerine soyle bir cozunm uretilmistir
-    1-chooseFile Butonunu locate edin
-    2-upload edilecek dosyanin dosya yolunu olusturun
-    3-
-
-     */
+     /*
+             Bu gorevi yapabilmek icin chooseFile butonuna basildiginda
+             acilan bilgisayarimizdaki file dosyalarini click yapabilmeemiz gerekir
+             ancak Selenium bilgisayarimizdaki dosyalari click yapamaz
+             Bunun yerine soyle bir cozum uretilmistir
+             1- chooseFile butonunu locate edin
+             2- upload edilecek dosyanin dosya yolunu olusturun
+             3- chooseFile butonuna sendKeys ile dosya yolunu gonderin
+         */
         WebElement chooseFileButonu= driver.findElement(By.xpath("//input[@id='file-upload']"));
 
 
