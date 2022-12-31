@@ -29,7 +29,7 @@ public class Q1 {
     @AfterClass
     public static void tearDown(){
         //  AfterClass ile kapatin
-        driver.close();
+        driver.quit();
     }
     //  BeforeClass ile driver'i olusturun ve class icinde static yapin
     @BeforeClass
