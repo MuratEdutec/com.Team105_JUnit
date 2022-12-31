@@ -1,7 +1,7 @@
 package day09_actions;
 
-import Utulities.ReusableMethods;
-import Utulities.TestBase;
+import utilities.ReusableMethods;
+import utilities.TestBase;
 import com.github.javafaker.Faker;
 import org.junit.Assert;
 import org.junit.Test;

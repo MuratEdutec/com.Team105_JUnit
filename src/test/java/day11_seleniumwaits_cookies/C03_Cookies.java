@@ -1,5 +1,5 @@
 package day11_seleniumwaits_cookies;
-import Utulities.TestBase;
+import utilities.TestBase;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.Cookie;

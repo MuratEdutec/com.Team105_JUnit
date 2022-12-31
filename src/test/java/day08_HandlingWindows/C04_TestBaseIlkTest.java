@@ -1,7 +1,7 @@
 package day08_HandlingWindows;
 
-import Utulities.ReusableMethods;
-import Utulities.TestBase;
+import utilities.ReusableMethods;
+import utilities.TestBase;
 import org.junit.Assert;
 import org.junit.Test;
 
