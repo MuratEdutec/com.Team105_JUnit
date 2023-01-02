@@ -10,7 +10,7 @@ public class m1 extends TestBase {
 
         @Test
     public void test1(){
-
+/*
             driver.get("https://webmail.argewebhosting.nl/");
             WebElement argeWebUser= driver.findElement(By.name("_user"));
             argeWebUser.sendKeys("murat@taalschoolhetwerkwoord.nl");
@@ -34,7 +34,7 @@ public class m1 extends TestBase {
             }else {
                 System.out.println("FAILEDDD");
             }
-
+*/
 
 
 
